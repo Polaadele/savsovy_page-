@@ -44,7 +44,7 @@ resetTimer = setTimeout(() => {
     noBtn.style.position = "relative";
     noBtn.style.left = "0";
     noBtn.style.top = "0";
-}, 3000);
+}, 1750);
 
     createFloatingMessage(
         messages[Math.floor(Math.random()*messages.length)],
@@ -74,7 +74,7 @@ function createFloatingMessage(text,x,y){
 
     setTimeout(()=>{
         el.remove();
-    },1500);
+    },3000);
 }
 // للكمبيوتر
 noBtn.addEventListener("mouseenter", moveButton);
