@@ -87,3 +87,20 @@ button{
         transform:translateY(-100px);
     }
 }
+@media (max-width: 600px){
+
+    .card{
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    button{
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
