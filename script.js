@@ -44,7 +44,7 @@ resetTimer = setTimeout(() => {
     noBtn.style.position = "relative";
     noBtn.style.left = "0";
     noBtn.style.top = "0";
-}, 1750);
+}, 3000);
 
     createFloatingMessage(
         messages[Math.floor(Math.random()*messages.length)],
