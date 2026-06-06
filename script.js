@@ -76,7 +76,11 @@ function createFloatingMessage(text,x,y){
         el.remove();
     },1500);
 }
+// للكمبيوتر
+noBtn.addEventListener("mouseenter", moveButton);
 
+// للموبايل
+noBtn.addEventListener("touchstart", moveButton);
 function goNext(){
     window.location.href = "success.html";
 }
